@@ -13,7 +13,7 @@ const Timer = () => {
       intervalId = setInterval(() => {
         setTime((prev) => prev + 1);
       }, 1000);
-    } else {
+     } else {
       setIsDisable(false); 
       clearInterval(intervalId);
     }
@@ -23,7 +23,6 @@ const Timer = () => {
     <div className="container">
       <div className="time">{time}</div>
      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      
      <button className="start-btn" onClick={() => setStartTimer(true)}
         disabled={isDisable}> Start </button>
       &nbsp;&nbsp; 
