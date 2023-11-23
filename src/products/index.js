@@ -2,7 +2,7 @@
 // import axios from 'axios';
 // import './products.css';
 // import { useNavigate } from 'react-router-dom';
-// // import productSpecification from './productSpec'; 
+// import ProductDetails from './productdetail'; 
 // function Products() {
 //   let navigate = useNavigate();
 
@@ -23,7 +23,7 @@
 //             <div
 //               className="product-card"
 //               onClick={() => {
-//                 {navigate(`/products/${product.id}`)}; // Added a forward slash
+//                 navigate(`/products/${product.id}`); // Added a forward slash
 //               }}
 //               key={i}
 //             >
@@ -47,6 +47,4 @@
 //   );
 // }
 
-
 // export default Products;
-
